@@ -38,4 +38,7 @@ VOLUME /artifactory/data
 VOLUME /artifactory/logs
 VOLUME /artifactory/backup
 
+# Expose Tomcat config folder
+VOLUME /usr/local/tomcat/conf
+
 WORKDIR /artifactory
